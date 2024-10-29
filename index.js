@@ -19,8 +19,7 @@ function renderFreelancers() { //used chatgpt to explain to me how and why every
       `;
       freelancerList.appendChild(row);
   });
-
-  // Update average price
+  
   document.getElementById('average-price').textContent = `$${calculateAverageStartingPrice()}`;
 }
 
